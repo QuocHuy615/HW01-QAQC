@@ -58,7 +58,7 @@
 
 #### LLM Quality Evaluator
 
-- **Kỹ năng nền tảng:** Đánh giá RAG (Retrieval-Augmented Generation), Kiểm thử tính thiên kiến (Bias) và ảo giác (Hallucination).
+- **Kỹ năng nền tảng:** Đánh giá RAG (Retrieval-Augmented Generation), Kiểm thử tính thiên kiến (Bias), ảo giác (Hallucination) và Kiểm thử an toàn đối kháng (Prompt Injection, Jailbreak)
 - **Kỹ năng công cụ & AI:** LangSmith, TruLens, DeepEval, Các công cụ benchmark LLM.
 - **Kỹ năng mềm & Quy trình:** Ngôn ngữ học, Phân tích ngữ cảnh, Đạo đức AI (AI Ethics).
 
@@ -70,30 +70,20 @@
 
 ## 4. Quy trình hoạt động kiểm thử (Test Activities - ISTQB V4.0)
 
-#### Test Planning (Lập kế hoạch)
+- **Nguyên tắc thực thi:** Áp dụng Whole Team Approach (Toàn bộ thành viên Dev, QA, QC, PO cùng chia sẻ trách nhiệm trong mọi hoạt động từ Phân tích đến Thực thi, không gán cứng rào cản vai trò).
 
-- **Tham gia:** Test Manager, QA, AI Test Lead.
+#### Test Planning (Lập kế hoạch)
 
 #### Test Monitoring & Control (Giám sát & Kiểm soát)
 
-- **Tham gia:** Test Manager, QA.
-
 #### Test Analysis (Phân tích)
-
-- **Tham gia:** QC, Automation, Security, LLM Evaluator (Phân tích requirements/Prompts).
 
 #### Test Design (Thiết kế)
 
-- **Tham gia:** QC, Automation, Prompt Engineer for Testing.
-
 #### Test Implementation (Thực thi thiết lập)
 
-- **Tham gia:** Automation, AI Test Engineer, QC (Cài đặt môi trường).
+- **Nhiệm vụ cốt lõi:** Tham gia QC (Xây dựng Test Procedures, Test Suites và chuẩn bị Test Data).
 
 #### Test Execution (Thực thi chạy test)
 
-- **Tham gia:** QC, Automation, Performance, LLM Evaluator.
-
 #### Test Completion (Đóng luồng kiểm thử)
-
-- **Tham gia:** Tất cả các vai trò, do Test Lead tổng hợp báo cáo và lưu trữ.
